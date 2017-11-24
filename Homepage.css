@@ -1,0 +1,28 @@
+﻿.grid {
+  display: grid;
+  width: 1000px;
+  height: 1000px;
+  grid-template-rows: 200px;
+  grid-template columns: 200px 200px 200px 200px 200px;
+}
+
+li {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+.a {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.b {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.c {
+  grid-area: 1 / 3 / span 1 / span 1;
+{
+
+.d {
+  grid-area: 1 / 4 / span 1 / span 1;
+}
